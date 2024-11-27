@@ -1,0 +1,92 @@
+body
+{
+/*display: flex;
+justify-content: center;*/
+}
+
+#container
+{
+width: 95%;
+background-color: lightsalmon;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 auto;
+}
+
+header
+{
+width: 83.33%;
+height: 150px;
+background-color: rgb(255, 255, 179);
+}
+
+main
+{
+width: 83.33%; /* 1000px */
+background-color: pink;
+display: flex;
+justify-content: space-between;
+}
+
+#banner
+{
+width: 70%; /* 700px */
+background-color: plum;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.foto
+{
+width: 28.57%;
+height: 200px;
+background-color: lightskyblue;
+border: 1px solid black;
+}
+
+aside
+{
+width: 25%;
+height: 500px;
+background-color: rgb(96, 125, 255);
+}
+
+footer
+{
+width: 83.33%;
+height: 150px;
+background-color: lightgreen;
+}
+
+@media (max-width : 900px)
+{
+    .foto
+    {
+    width: 40%;
+    background-color: black;
+    border: 1px solid white;
+    }
+}
+
+@media (max-width : 700px)
+{
+    #banner
+    {
+    width: 100%;
+    }
+
+    aside
+    {
+    display: none;
+    }
+
+    .foto
+    {
+    width: 100%;
+    background-color: red;
+    border: 1px solid white;
+    }
+}
